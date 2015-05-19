@@ -26,4 +26,5 @@
 ### Further Resources:
 	- [Google Python Tutorial]
 	- [Main Python Site](http://www.python.org)
+	- http://docs.python.org/library
 	
