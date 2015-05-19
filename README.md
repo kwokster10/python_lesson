@@ -7,6 +7,7 @@
 	- Install Python
 		- check via terminal 'python -V'
 		- else install with 'brew install python'
+		- 'ctrl + d' to exit
 	- Introduction to Python
 		- What it is?
 		- What it's used for?
@@ -23,6 +24,7 @@
 	- Python only exercise
 
 ### Further Resources:
-	- [Main Python Site](http://www.python.org)
-	- http://docs.python.org/library
+1. [Google Python Tutorial](http://docs.python.org/library)
+2. [Main Python Site](http://www.python.org)
+	
 	
