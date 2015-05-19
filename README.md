@@ -24,7 +24,7 @@
 	- Python only exercise
 
 ### Further Resources:
-	[Google Python Tutorial](http://docs.python.org/library)
-	[Main Python Site](http://www.python.org)
+[Google Python Tutorial](http://docs.python.org/library)
+[Main Python Site](http://www.python.org)
 	
 	
