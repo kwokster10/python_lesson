@@ -10,11 +10,13 @@ len()
 reverse()
 pop()
 .split
-beginswith
+.startswith
 .index('Monty')
 .upper
 .lower
 .count("Monty")
+.append
+print
 
 10 mins
 
