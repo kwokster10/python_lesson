@@ -35,7 +35,7 @@ def introduction():
 
 # Interesting things to note about functions: scope
 ```
- number = 4
+ number = 3.14159
     def scope():
         number = 5
         print number
@@ -46,7 +46,10 @@ def introduction():
     2. Similarly, if we had number = number + 5 in the function, we would get an error b/c it's trying to find a local variable number. You would need to make a new variable like number2 = number before you can add a value to number to itself.
     3. Using _ and //
 
-# An fascinating function
+# An fascinating function 
+
+- if you are in the python interpreter, it will look like this with ... to remind you are in a block and >>> when you are not. 
+
 ```
 def operate(num1, num2, num3, **operation):
 ...     if operation.get("addition") == "add":
@@ -62,11 +65,15 @@ def operate(num1, num2, num3, **operation):
 ... 
 >>> print operate(1, 2, 3, addition = "add", subraction = "subtract", multiplication = "multiply", division = "divide", exponent = "power")
 ```
-   1. Obviously if you used 0 in num3 here, it would break at some of the operators but you get the idea. You can pass in more params too if you'd like.
+   1. Obviously if you used 0 in num2 and num3 here, it would break at some of the operators but you get the idea. You can pass in more params too if you'd like.
    2. There is also a function with just one * that takes a variable number of arguments
 
 Mini Exercise: 
-Create a command line app that will take a string and print in all caps in reverse. Hint, Pythons equivalent of process.argv[2] is sys.argv[1].
+** Can't be done in repl.it
+- touch a file called mini_ex.py 
+- first line 'import sys' - like require for Ruby / JS
+- Create a command line app that will take a string and returns it printed in all caps and in pig latin if the word starts with the letter 'p'. If the word is "Crawford", print "Hey , hey, hey!". Otherwise print it in reverse one letter at a time. Hint, Python's equivalent of process.argv[2] is sys.argv[1]. 
+
 
 
 
