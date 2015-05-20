@@ -28,6 +28,8 @@ To summerize:
 ```
 def introduction():
     print "Hello everybody!"
+
+introduction()
 ```
    A few important things to note:
    	1. The colon
