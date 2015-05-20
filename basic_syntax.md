@@ -4,12 +4,14 @@
 
 ## Simple Exercises
 
+Defining a list:
+```
 monty_films = ["And Now For Something Completly Different",
 				"Monty Python and the Holy Grail",
 				"Monty Python's Life of Brain",
 				"Monty Python live at the Hollywood Bowl",
 				"Monty Python's the meaning of life"]
-    
+```  
 
 Length:
 ```
@@ -57,37 +59,25 @@ Startswith:
 >>> [i for i in range(len(monty_films)) if monty_films[i].startswith('M')]
  [0, 1, 2, 3] / the array is in reversed order now.
 ```
-
-
-monty_films[0][0:10]
-monty_films[0:]
-monty_films[:10]
-copy_array = Monty_films[:]
-arr = Monty_films
-
-
-Startswith:
->>> [i for i in range(len(monty_films)) if monty_films[i].startswith('M')]
- [0, 1, 2, 3] # the array is in reversed order now.
-
->>> monty_films[0][0:10]
-'And Now Fo'
-
->>> monty_films[0:]
-['And Now For Something Completly Different', 
-'Monty Python and the Holy Grail', 
-"Monty Python's Life of Brain", 
-'Monty Python live at the Hollywood Bowl', 
-"Monty Python's the meaning of life"]
-
+Range examples:
+```
+# for a string it grabs those indexes up to but not including 
+>>> monty_films[0][2:10]
+'d Now Fo'
+```
+```
+# for a list - same deal, it will grab those indexes
+>>> monty_films[1:3]
+['Monty Python and the Holy Grail', "Monty Python's Life of Brain"]
+```
+```
+# if the index is higher than the list, the remaining indexes are returned as empty, so no error is thrown
 >>> monty_films[:10]
-['And Now For Something Completly Different', 
-'Monty Python and the Holy Grail', 
-"Monty Python's Life of Brain", 
-'Monty Python live at the Hollywood Bowl', 
-"Monty Python's the meaning of life"]
+['And Now For Something Completly Different', 'Monty Python and the Holy Grail', "Monty Python's Life of Brain", 'Monty Python live at the Hollywood Bowl', "Monty Python's the meaning of life"]
+```
 
-
-
-
+If you noticed from before, the .reverse() changes the orignal list permanently. To avoid that, we can make a copy of it using the range like so:
+```
+copy_array = Monty_films[:]
+```
 
