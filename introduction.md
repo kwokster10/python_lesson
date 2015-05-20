@@ -1,5 +1,7 @@
 # Introduction to Python
 
+![Newt](http://mindfunda.com/wp-content/uploads/2015/03/f297_airspeedvelocity.jpg)
+
 ## What it is?
 Python is a widely used general-purpose, high-level programming language, which emphasizes code readability. 
 Its syntax allows programmers to express concepts in fewer lines of code than might be possible in other languages.  It is roughly analogous to Ruby, in its level of complexity, readability, and general usefulness.  There is an extensive discussion of the similarities and differences between Python and Ruby here:  http://c2.com/cgi/wiki?PythonVsRuby
