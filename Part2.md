@@ -78,7 +78,6 @@ def operate(num1, num2, num3, **operation):
 ![Run Away](http://toolbox.klasresearch.com/Content/Images/Research/BlogPostImages/RunAway3.jpg)
 
 ## Regular Expressions
-Regex
 
 Regular expressions are a powerful language for matching text patterns. 
 The Python "re" module provides regular expression support.
@@ -109,11 +108,11 @@ the \w indicates a "word" character: a letter or number or underscore
 the 'r' indicates a python "raw" string - not interpolated at all
 
 Some other character classes:
-  \d  a digit
-  \s  a whitespace character
-  \S  a non-whitespace character
-   .  any character
-  \b  a word-boundary
+-  \d  a digit
+-  \s  a whitespace character
+-  \S  a non-whitespace character
+-   .  any character
+-  \b  a word-boundary
 
 There is a lot more logic to explore with respect to regular expressions.  If you'd like a challenge, you can try the Regex Crossword:  http://regexcrossword.com/
 
