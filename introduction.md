@@ -12,3 +12,18 @@ Developers typically choose to use Python because of its relatively easy readabi
 
 ## Why you should learn it?
 A 10-second search of "Python, New York, NY" on http://careers.stackoverflow.com yields 125 listings.  Also, Python is relatively straighforward to pick up, for people with programming experience, so, you may as well add another tool to your toolbelt.
+
+Pick up a new language...
+
+Next up, checking to see if you have it...
+which python
+python -V
+python -version
+
+V2 is the established version, widely used.
+There is a V3, but the syntax is slightly different...
+
+to install, try brew install python
+ or to follow along, try repl.it
+
+ Up next, Dipshikha is going to show us some basic Python syntax, with a few examples.
