@@ -24,7 +24,9 @@
 	- Python only exercise
 
 ### Further Resources:
-1. [Google Python Tutorial](http://docs.python.org/library)
+1. [Google Python Tutorial](https://developers.google.com/edu/python/)
 2. [Main Python Site](http://www.python.org)
+3. [Python Docs]((http://docs.python.org/library)
+4. [Play More with Python Regex](http://pythex.org/)
 	
 	
