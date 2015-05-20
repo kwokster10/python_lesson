@@ -16,11 +16,11 @@ AND - "%" operator is used to format a set of variables enclosed in a "tuple" (a
 	- A tuple is another special data format stored in parens that is immutable. Meaning it's contents cannot be changed, unlike lists or dictionaries.
 
 Mini Exercise:
-Let's think back to the bank homework. If we wanted to print "You made a deposit / payment of $20.25.", how would we write it with these variables:
+Let's think back to the bank homework. If we wanted to print "You made a deposit / payment of $18.33.", how would we write it with these variables:
 ```
 credit = "deposit" 
 deduction = "payment" 
-amount  = 20.2555555
+amount  = 55 / 3
 
 print "You made a %s / %s of %.2f." % (credit, deduction, amount)
 ```
