@@ -28,6 +28,6 @@
 2. [Main Python Site](http://www.python.org)
 3. [Python Docs]((http://docs.python.org/library)
 4. [Play More with Python Regex](http://pythex.org/)
-5. [Through Breakdown on Github](https://github.com/GA-Tutorials/Python)
+5. [Beginners Breakdown on Github](https://github.com/GA-Tutorials/Python)
 	
 	
