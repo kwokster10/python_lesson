@@ -1,5 +1,7 @@
 # PART 2:
 
+![Burn](http://imoviequotes.com/wp-content/uploads/2014/10/3-Monty-Python-and-the-Holy-Grail-quotes.gif)
+
 ## Objects:
 In the class-based object-oriented programming paradigm, "object" refers to a particular instance of a class where the object can be a combination of variables, functions, and data structures. In relational database management, an object can be a table or column, or an association between data and a database entity (such as relating a persons age to a specific person).
 
@@ -69,6 +71,8 @@ def operate(num1, num2, num3, **operation):
 ```
    1. Obviously if you used 0 in num2 and num3 here, it would break at some of the operators but you get the idea. You can pass in more params too if you'd like.
    2. There is also a function with just one * that takes a variable number of arguments
+
+![Run Away](http://toolbox.klasresearch.com/Content/Images/Research/BlogPostImages/RunAway3.jpg)
 
 Mini Exercise: 
 ** Can't be done in repl.it

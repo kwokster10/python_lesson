@@ -1,4 +1,7 @@
 # PART 1
+
+![Flesh Wound](http://images6.fanpop.com/image/photos/35300000/Monty-Python-and-the-Holy-Grail-Inspired-Quote-Poster-monty-python-and-the-holy-grail-35315673-551-849.jpg)
+
 ## String Formatting - a cool way to concat strings
 So we've strings being concated with simply '+'' or '#{}'. 
 We can still add in Python or with string literals, you do just have a space. But check this out:
