@@ -3,26 +3,27 @@
 ![Burn](http://imoviequotes.com/wp-content/uploads/2014/10/3-Monty-Python-and-the-Holy-Grail-quotes.gif)
 
 ## Objects:
-In the class-based object-oriented programming paradigm, "object" refers to a particular instance of a class where the object can be a combination of variables, functions, and data structures. In relational database management, an object can be a table or column, or an association between data and a database entity (such as relating a persons age to a specific person).
 
-Everything in Python is an object, and almost everything has attributes and methods. All functions have a built-in attribute __doc__, which returns the doc string defined in the functions source code. The sys module is an object which has (among other things) an attribute called path. 
+Everything in Python is object-oriented just like in Ruby. You can define custom classes like so. 
 
+```
+class Python:
+    age = 12
+    color = "blue"
+    length = "6 ft"
+    name = ""
+    
+    def speak(self):
+        talk = "%s hisssssed!" % self.name
+        return (talk)
 
-Still, this begs the question. What is an object? 
-Different programming languages define “object” in different ways. 
-In some, it means that all objects must have attributes and methods. 
-
-In others,it means that all objects are subclassable. 
-
-In Python, the definition is looser; some objects have neither attributes nor methods, and not all objects are subclassable. But everything is an object in the sense that it can be assigned to a variable or passed as an argument to a function.
-
-To summerize:
-
-1. Strings are objects. 
-2. Lists are objects. 
-3. Functions are objects. 
-4. Even modules are objects.
-
+slytherin = Python()
+print (slytherin.age)
+slytherin.color = "yellow"
+print (slytherin.color)
+slytherin.name = "Snape"
+print (slytherin.speak())
+```
 
 ## Let's look at how functions are defined
 ```
@@ -75,6 +76,47 @@ def operate(num1, num2, num3, **operation):
    2. There is also a function with just one * that takes a variable number of arguments
 
 ![Run Away](http://toolbox.klasresearch.com/Content/Images/Research/BlogPostImages/RunAway3.jpg)
+
+## Regular Expressions
+
+Regular expressions are a powerful language for matching text patterns. 
+The Python "re" module provides regular expression support.
+
+General format of a regex search in Python:
+
+```
+import re
+match = re.search(pat, str)
+```
+
+where pat is the regex pattern, str is the string being searched, and match holds the contents of the successful match (if there is one), or None if there is no match.
+
+Example:
+
+```
+import re
+str = 'an example word:cat!!'
+match = re.search(r'word:\w\w\w', str)
+  if match:                      
+    print 'found', match.group() ## 'found word:cat'
+  else:
+    print 'did not find'
+```
+
+the \w indicates a "word" character: a letter or number or underscore
+
+the 'r' indicates a python "raw" string - not interpolated at all
+
+Some other character classes:
+-  \d  a digit
+-  \s  a whitespace character
+-  \S  a non-whitespace character
+-   .  any character
+-  \b  a word-boundary
+
+There is a lot more logic to explore with respect to regular expressions.  If you'd like a challenge, you can try the Regex Crossword:  http://regexcrossword.com/
+
+Julie has an example...
 
 Mini Exercise: 
 ** Can't be done in repl.it
