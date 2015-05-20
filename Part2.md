@@ -77,6 +77,48 @@ def operate(num1, num2, num3, **operation):
 
 ![Run Away](http://toolbox.klasresearch.com/Content/Images/Research/BlogPostImages/RunAway3.jpg)
 
+## Regular Expressions
+Regex
+
+Regular expressions are a powerful language for matching text patterns. 
+The Python "re" module provides regular expression support.
+
+General format of a regex search in Python:
+
+```
+import re
+match = re.search(pat, str)
+```
+
+where pat is the regex pattern, str is the string being searched, and match holds the contents of the successful match (if there is one), or None if there is no match.
+
+Example:
+
+```
+import re
+str = 'an example word:cat!!'
+match = re.search(r'word:\w\w\w', str)
+  if match:                      
+    print 'found', match.group() ## 'found word:cat'
+  else:
+    print 'did not find'
+```
+
+the \w indicates a "word" character: a letter or number or underscore
+
+the 'r' indicates a python "raw" string - not interpolated at all
+
+Some other character classes:
+  \d  a digit
+  \s  a whitespace character
+  \S  a non-whitespace character
+   .  any character
+  \b  a word-boundary
+
+There is a lot more logic to explore with respect to regular expressions.  If you'd like a challenge, you can try the Regex Crossword:  http://regexcrossword.com/
+
+Julie has an example...
+
 Mini Exercise: 
 ** Can't be done in repl.it
 - touch a file called mini_ex.py 
