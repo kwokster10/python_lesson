@@ -66,6 +66,27 @@ copy_array = Monty_films[:]
 arr = Monty_films
 
 
+Startswith:
+>>> [i for i in range(len(monty_films)) if monty_films[i].startswith('M')]
+ [0, 1, 2, 3] # the array is in reversed order now.
+
+>>> monty_films[0][0:10]
+'And Now Fo'
+
+>>> monty_films[0:]
+['And Now For Something Completly Different', 
+'Monty Python and the Holy Grail', 
+"Monty Python's Life of Brain", 
+'Monty Python live at the Hollywood Bowl', 
+"Monty Python's the meaning of life"]
+
+>>> monty_films[:10]
+['And Now For Something Completly Different', 
+'Monty Python and the Holy Grail', 
+"Monty Python's Life of Brain", 
+'Monty Python live at the Hollywood Bowl', 
+"Monty Python's the meaning of life"]
+
 
 
 
