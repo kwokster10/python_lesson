@@ -1,26 +1,28 @@
-# PART 1
-# String Formatting - a cool way to concat strings
-So we've strings being concated with simply '+'' or '#{}'. 
-We can still add in Python or with string literals, you do just have a space. But check this out:
-We can add with arugment specifiers listed below:
-
-	1. %s - string or something you want to turn to string
-	2. %d - integers
-	3. %f - floats
-	4. %.#f - where # is the number of decimals you want
-
-AND - "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list)
-	- A tuple is another special data format stored in parens that is immutable. Meaning it's contents cannot be changed, unlike lists or dictionaries.
-
-Mini Exercise:
-Let's think back to the bank homework. If we wanted to print "You made a deposit / payment of $20.25.", how would we write it with these variables:
-	1. credit = "deposit" 
-	2. deduction = "payment" 
-	3. amount  = 20.2555555
->>>>> print "You made a %s / %s of %.2f." % (credit, deduction, amount)
-
 # PART 2:
-# Let's look at how functions are defined
+
+## Objects:
+In the class-based object-oriented programming paradigm, "object" refers to a particular instance of a class where the object can be a combination of variables, functions, and data structures. In relational database management, an object can be a table or column, or an association between data and a database entity (such as relating a persons age to a specific person).
+
+Everything in Python is an object, and almost everything has attributes and methods. All functions have a built-in attribute __doc__, which returns the doc string defined in the functions source code. The sys module is an object which has (among other things) an attribute called path. 
+
+
+Still, this begs the question. What is an object? 
+Different programming languages define “object” in different ways. 
+In some, it means that all objects must have attributes and methods. 
+
+In others,it means that all objects are subclassable. 
+
+In Python, the definition is looser; some objects have neither attributes nor methods, and not all objects are subclassable. But everything is an object in the sense that it can be assigned to a variable or passed as an argument to a function.
+
+To summerize:
+
+1. Strings are objects. 
+2. Lists are objects. 
+3. Functions are objects. 
+4. Even modules are objects.
+
+
+## Let's look at how functions are defined
 ```
 def introduction():
     print "Hello everybody!"
@@ -33,7 +35,7 @@ def introduction():
    	5. If you are using repl.it, you will need parens around the print string
 
 
-# Interesting things to note about functions: scope
+## Interesting things to note about functions: scope
 ```
  number = 3.14159
     def scope():
@@ -46,7 +48,7 @@ def introduction():
     2. Similarly, if we had number = number + 5 in the function, we would get an error b/c it's trying to find a local variable number. You would need to make a new variable like number2 = number before you can add a value to number to itself.
     3. Using _ and //
 
-# An fascinating function 
+## An fascinating function 
 
 - if you are in the python interpreter, it will look like this with ... to remind you are in a block and >>> when you are not. 
 
@@ -73,7 +75,3 @@ Mini Exercise:
 - touch a file called mini_ex.py 
 - first line 'import sys' - like require for Ruby / JS
 - Create a command line app that will take a string and returns it printed in all caps and in pig latin if the word starts with the letter 'p'. If the word is "Crawford", print "Hey , hey, hey!". Otherwise print it in reverse one letter at a time. Hint, Python's equivalent of process.argv[2] is sys.argv[1]. 
-
-
-
-
