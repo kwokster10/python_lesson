@@ -14,14 +14,14 @@
 	- What it's used for?
 	- Why do companies and other programmers choose it?
 	- Why you should learn it?
-- Mini Monty Python Ruby exercise (similar to Bond exercise)
+- Mini Monty Python exercise
 - Delve more into Python syntax
 	- Conditionals
 	- Looping
 	- Objects 
 	- Extensions (like regex)
-	- Etc.
-- Python only exercise
+	- etc.
+- Python exercises
 
 ### Further Resources:
 1. [Google Python Tutorial](https://developers.google.com/edu/python/)
