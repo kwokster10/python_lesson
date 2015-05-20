@@ -57,37 +57,29 @@ Startswith:
 >>> [i for i in range(len(monty_films)) if monty_films[i].startswith('M')]
  [0, 1, 2, 3] / the array is in reversed order now.
 ```
-
-
-monty_films[0][0:10]
-monty_films[0:]
-monty_films[:10]
-copy_array = Monty_films[:]
-arr = Monty_films
-
-
-Startswith:
->>> [i for i in range(len(monty_films)) if monty_films[i].startswith('M')]
- [0, 1, 2, 3] # the array is in reversed order now.
-
+Range examples:
+```
 >>> monty_films[0][0:10]
 'And Now Fo'
-
+```
+```
 >>> monty_films[0:]
 ['And Now For Something Completly Different', 
 'Monty Python and the Holy Grail', 
 "Monty Python's Life of Brain", 
 'Monty Python live at the Hollywood Bowl', 
 "Monty Python's the meaning of life"]
-
+```
+```
 >>> monty_films[:10]
 ['And Now For Something Completly Different', 
 'Monty Python and the Holy Grail', 
 "Monty Python's Life of Brain", 
 'Monty Python live at the Hollywood Bowl', 
 "Monty Python's the meaning of life"]
-
-
-
-
+```
+If you noticed from before, the .reverse() changes the orignal list permanently. To avoid that, we can make a copy of it using the range like so:
+```
+copy_array = Monty_films[:]
+```
 
