@@ -1,3 +1,9 @@
+# Basic Syntax
+
+![Monty Python and Holy Grail](http://sellingout.com/wp-content/uploads/2014/04/monty_python_and_the_holy_grail_59205-1600x1200.jpg)
+
+## Simple Exercises
+
 monty_films = ["And Now For Something Completly Different",
 				"Monty Python and the Holy Grail",
 				"Monty Python's Life of Brain",

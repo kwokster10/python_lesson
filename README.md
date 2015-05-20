@@ -39,4 +39,12 @@
 4. [Play More with Python Regex](http://pythex.org/)
 5. [Beginners Breakdown on Github](https://github.com/GA-Tutorials/Python)
 
+### Contributers
+- [Steve McIntosh](https://github.com/scmgithub)
+- [Dipshikha Biswas](https://github.com/bdipshikha)
+- [Julie Kwok](https://github.com/kwokster10)
+
+### Thanks for tuning in!
+![Flying Circus](http://rjbuffalo.com/images/monty_python/monty_pythons_flying_circus_uk-show.jpg)
+
 	
