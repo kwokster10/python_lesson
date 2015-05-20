@@ -69,8 +69,43 @@ else:
         STATEMENTS_C
 ```
 
+## Loops
+
+For:
+Rather than always iterating over an arithmetic progression of numbers or giving the user the ability to define both the iteration step and halting condition, Python’s for statement iterates over the items of a list or string.  For example (no pun intended):
+
+continue:  continues with the next iteration of the loop.
+
+```
+for num in range(2, 10):
+    if num % 2 == 0:
+        print "Found an even number", num
+        continue
+    print "Found a number", num
+```
+
+break:  breaks out of the smallest enclosing for or while loop
+else:  applies to for and while loops; executes when then loop terminates naturally.
+
+```
+for n in range(2, 10):
+    for x in range(2, n):
+        if n % x == 0:
+            print n, 'equals', x, '*', n/x
+            break
+    else:
+        # loop fell through without finding a factor
+        print n, 'is a prime number'
+```
 
 
+while (else)
+ Works as you would expect... Also supports break, continue, else
 
-
+```
+i = 4 
+while i < 9:
+    print(i)
+    i = i+2
+```
 
