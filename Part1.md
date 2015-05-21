@@ -104,7 +104,7 @@ while (else)
 
 ```
 i = 4 
-while i < 9:
+while i < 9: 
     print(i)
     i = i+2
 ```

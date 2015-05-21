@@ -122,4 +122,7 @@ Mini Exercise:
 ** Can't be done in repl.it
 - touch a file called mini_ex.py 
 - first line 'import sys' - like require for Ruby / JS
-- Create a command line app that will take a string and returns it printed in all caps and in pig latin if the word starts with the letter 'p'. If the word is "Crawford", print "Hey , hey, hey!". Otherwise print it in reverse one letter at a time. Hint, Python's equivalent of process.argv[2] is sys.argv[1]. 
+- Create a command line app that will take a string and return it printed in pig latin if the word starts with the letter 'p'. If the word is "Crawford", print "Hey Hey Hey". Otherwise print it in reverse one letter at a time in all caps. Hint, Python's equivalent of process.argv[2] is sys.argv[1].
+
+
+
