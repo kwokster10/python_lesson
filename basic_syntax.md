@@ -61,17 +61,17 @@ Startswith:
 ```
 Range examples:
 ```
-# for a string it grabs those indexes up to but not including 
+# for a string it grabs those indeces up to but not including 
 >>> monty_films[0][2:10]
 'd Now Fo'
 ```
 ```
-# for a list - same deal, it will grab those indexes
+# for a list - same deal, it will grab those indeces
 >>> monty_films[1:3]
 ['Monty Python and the Holy Grail', "Monty Python's Life of Brain"]
 ```
 ```
-# if the index is higher than the list, the remaining indexes are returned as empty, so no error is thrown
+# if the index is higher than the list, the remaining indices are returned as empty, so no error is thrown
 >>> monty_films[:10]
 ['And Now For Something Completly Different', 'Monty Python and the Holy Grail', "Monty Python's Life of Brain", 'Monty Python live at the Hollywood Bowl', "Monty Python's the meaning of life"]
 ```
