@@ -25,7 +25,7 @@
 	- etc.
 - Python exercises
 
-## The flow of the lesson:
+## The flow of the lesson on Github:
 1. [Our Introduction](https://github.com/kwokster10/python_lesson/blob/master/introduction.md)
 2. [Basic Syntax](https://github.com/kwokster10/python_lesson/blob/master/basic_syntax.md)
 3. [Lesson Part 1](https://github.com/kwokster10/python_lesson/blob/master/Part1.md)
